@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+em{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif,;
+    font-weight: bold;
+}
+
+/* body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color:white
+} */
+
+body{
+    background-image: url("navbackg1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+
+
+.navlinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logomargin{
+    margin-left: 10px;
+}
+
+.mainbody{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.em_text{
+    font-size: 11px;
+    background-color: black;
+}
+
+.text-background{
+    background-color: black;
+    text-align: center;
+}
+
+.bottom-links{
+    display: flex;
+    justify-content: center;
+}
+
+.menpics{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.menpicsx{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.menpicsxx{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+/* .menpics{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+} */
